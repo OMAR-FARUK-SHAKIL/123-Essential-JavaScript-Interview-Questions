@@ -1097,7 +1097,7 @@ The singleton implemented above is easy to understand. The singleton class maint
 
 <details><summary><b>Answer</b></summary>
 
-#### Method 1: Function based
+#### Method 1: Function based:
 
 This method is useful if we want to create several similar objects. In the code sample below, we wrote the function `Employee` and used it as a constructor by calling it with the `new` operator. 
 
@@ -1116,7 +1116,7 @@ This method is useful if we want to create several similar objects. In the code 
   var employee3 = new Employee('Andre', 'Salt', 26, '4000$');
 ```
 
-#### Method 2: Object Literal
+#### Method 2: Object Literal:
 
 Object Literal is best way to create an object and this is used frequently. Below is code sample for create employee object which contains property as well as method.
 
